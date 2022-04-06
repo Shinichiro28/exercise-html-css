@@ -1,1 +1,48 @@
-hoge
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a1 {
+  margin: auto;
+  padding: 50px;
+}
+
+.list-a {
+  width: 960px;
+  height: 50px;
+  background-color: lightgray;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.list-b {
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.list-c {
+  width: 960px;
+  height: 50px;
+  background-color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.b1 {
+  width: 960px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box1 {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
